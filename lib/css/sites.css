@@ -1,0 +1,489 @@
+/* *** THEMEBUILDER FILES; DO NOT EDIT *** */
+
+/* SITE CONTAINER */
+div.app-sites { position:relative; }
+
+/* BOOTSTRAT OVERRIDES */
+div.app-sites .ui-accordion .ui-accordion-content {padding:0;}
+
+div.sites-site-container{ position:relative; height:100%; width:100%; overflow:auto; background:transparent; }
+div.ui-os-desktop div.sites-site-container{ height:100%!important;}
+
+/* AUTOCOMPLETE OVERRiDES */
+ul.ui-autocomplete { max-height: 180px; overflow-y: auto; }
+
+/* EDITOR */
+div.editor-actions{position: absolute; top: 23px; left: 90px; width: 190px;}
+div.editor-actions .ui-action-button,div.sites-builder-container div.handle{background: url(/app/public/icon/UI/icons.png); }
+div.editor-actions .undo{
+    background-position: -135px -27px; width: 16px; height: 16px;
+    position: absolute; right: 32px; top:5px;
+}
+div.editor-actions .redo{
+    background-position: -162px -27px; width: 16px;
+    height: 16px; position: absolute; right: 0px; top: 5px;
+}
+
+div.sites-builder-container {height:100%;width:300px;position:absolute;top:0;left:-300px;background:#333;color:#ccc;}
+div.sites-builder-container div.handle{
+    position:absolute;top:20px;right:-75px;height:37px;
+    width:60px;
+    background-position: -42px -206px;
+    width: 75px;
+    z-index:999999!important;
+}
+div.sites-builder-container div.handle.close-editor{
+    background-position: -42px -244px;
+    width: 75px;
+    text-align: center;
+}
+/* TABS OVERWRITES */
+
+ul.ui-editor-tabs{
+    margin: 0;
+    padding: 0 5px;
+    width: 290px;
+}
+ul.ui-editor-tabs li{
+    width: 94px;
+}
+ul.ui-editor-tabs li a{
+    text-align: center;
+    font-weight: 800;
+}
+ul.ui-editor-tabs li a:hover{
+    background: transparent;
+}
+
+
+/* LAYOUT "TABS" */
+.ui-layout-tabs{
+    border-bottom: none;
+    width: 180px;
+    margin-left: 100px;
+    display: inline-block;
+    margin: 0;
+}
+.ui-layout-tabs li{
+    padding: 0;
+    margin: 0 5px;
+    position:static;
+}
+.ui-layout-tabs li a {
+    filter:none;
+    padding: 5px 10px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    color:#343434;
+    font-weight: 800;
+}
+
+.ui-layout-tabs li.active a,.ui-layout-tabs li a:hover {
+    filter:none;
+    background-color: #0064CD;
+    background-image: -moz-linear-gradient(center top , #049CDB, #0064CD);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+div.sites-builder-container label {color:#fff;}
+
+div.sites-builder-options {
+    margin-top:90px;
+    background-color: transparent;
+}
+
+div.sites-builder-options div.ui-editor-box.selected {
+    border:1px solid #ccc;
+}
+
+div.sites-builder-options div.ui-editor-box {
+    float:left;
+    height:70px;
+    width:70px;
+    margin: 10px 0 35px 21px;
+    cursor:pointer;
+    border:1px solid transparent;
+}
+
+div.sites-builder-options div.ui-editor-box div.image {
+    width:64px;
+    height:64px;
+    margin:5px;
+}
+
+div.sites-builder-options div.ui-editor-box div.image.ui-app-icon {
+    width:52px;
+    height:52px;
+    margin:9px;
+}
+
+div.sites-builder-options div.ui-editor-box div.image.os-icon {
+    margin: 9px 15px 15px;
+}
+
+div.sites-builder-options div.ui-editor-box div.ui-editor-box-label {
+    font-weight:bold;
+    margin-top:7px;
+    text-align: center;
+    width:100%;
+    font-size:11px;
+    height:28px;
+    line-height:14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.sites-builder-options div#sites-settings ol {
+    margin:10px;
+}
+div.sites-builder-options div#sites-settings ol li {
+    list-style:none;
+    margin-bottom:15px;
+}
+
+div.sites-builder-options div.ui-editor-box-layout {
+    width:116px; height:110px;
+    float:left;
+    margin: 24px 2px 6px 14px;
+    padding:6px;
+    cursor:pointer;
+    border: 1px solid transparent;
+}
+div.sites-builder-options div.ui-editor-box-layout.selected,
+div.sites-builder-options div.ui-editor-box-layout:hover { border-color: #ccc; }
+
+div.sites-builder-options li.sites_preference_site div.site_pref.selected { border:1px solid #ccc; }
+div.sites-builder-options li.sites_preference_site div.site_pref { height: 50px; width:272; margin:18px 10px; padding:5px; cursor:pointer; }
+div.sites-builder-options li.sites_preference_site div.site_pref > div {  height:100%; }
+div.sites-builder-options li.sites_preference_site div.site_pref div.left_column { float:left; width: 50px; height:100%; }
+div.sites-builder-options li.sites_preference_site div.site_pref div.right_column { color: #000; margin-right:15px; padding-left:59px; padding-top:6px; }
+div.sites-builder-options li.sites_preference_site div.site_pref h5 {line-height:19px; font-size:12px}
+div.sites-builder-options li.sites_preference_site div.site_pref h5 { font-size:11px; }
+div.sites-builder-options li.sites_preference_site div.site_pref { font-size:12px; }
+
+div.ui-editor-box-layout table { width:100%; height:100%; border:1px solid #ccc; background-color:#666; border-collapse: separate;
+               /* hack is needed for IE7 also */ }
+div.ui-editor-box-layout table td {padding:0; background-color:#333; border-radius: 2px !important; text-align:center; vertical-align: middle;
+    border:5px solid #666; color:#ccc; }
+
+/* SITE CONTENT */
+div.sites-site-content{width:100%; height:100%;}
+.ie7 div.sites-site-content { width:auto; }
+[contenteditable="true"] { border: 1px dotted yellow; padding:5px; }
+
+/* PAGE */
+div[data-attr="bucket"] { background-color:transparent; }
+div[data-attr="bucket"].edit {border:2px dotted #999; min-height:10px;}
+
+
+div.sites-site-content div.draggable div.widget-close {
+    background-image:url(/app/public/icon/UI/icons.png);
+    background-position:-107px 819px;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:99;
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+
+div.sites-site-content .ui-sites-widget-placeholder {height:20px; border:1px solid #ccc;background-color:#6699FF;}
+
+/* MENU */
+div.sites-menu-one ol {list-style: none;margin: 0; padding:0;}
+div.sites-menu-one ol li {float:left;border: 1px solid #444; margin: 0 5px; padding: 5px 10px;}
+
+
+
+/* PREFS */
+div.sites-builder-container input, .sites-builder-container select, .sites-builder-container textarea, .sites-builder-container .selectmenu{
+    margin: 0 0 5px 30px;
+}
+.sites-builder-container li.delete {
+    text-align:center;
+}
+/* SELECT MENU OVERWRITES */
+div.sites-builder-container .settings-tab .ui-selectmenu{height: 100px; width: 232px; position:static; } /* Static is IE7 fix*/
+div.sites-builder-container .settings-tab .ui-selectmenu{background: #333; border: 1px solid transparent;color: #fff;}
+div.sites-builder-container .settings-tab .ui-selectmenu:hover, .ui-selectmenu.ui-state-active{border: 1px solid #666;}
+div.sites-builder-container .settings-tab .ui-selectmenu .ui-icon-triangle-1-s {float:right; position:static; margin-top:46px; }
+div.sites-builder-container .settings-tab .ui-selectmenu .ui-icon-triangle-1-s{visibility: hidden; }
+div.sites-builder-container .settings-tab .ui-selectmenu:hover .ui-icon-triangle-1-s, .ui-selectmenu.ui-state-active .ui-icon-triangle-1-s{visibility: visible;
+ background-image: url(/app/public/icon/UI/icons.png);background-position: -136px 0;}
+div.sites-builder-container .settings-tab span.ui-selectmenu-status {margin-left:0; position:static;padding:0;}
+div.sites-builder-container .settings-tab span.ui-selectmenu-item-icon { position:static; margin:0; float:left;}
+div.sites-builder-container .settings-tab .ui-selectmenu-status span{width: 150px; height: 100px; float:left;}
+div.sites-builder-container .settings-tab .ui-selectmenu-open{width: 250px; background: #555;}
+div.sites-builder-container .settings-tab .ui-selectmenu-open ul{width: 250px;}
+
+div.sites-builder-container .ui-selectmenu-menu ul{background: #3f3f3f; border: 1px solid #666; border-top:none}
+div.sites-builder-container .ui-selectmenu-menu ul li a{ color:#ddd; line-height: 50px;}
+div.sites-builder-container .ui-selectmenu-menu ul li.ui-state-hover{background: #000; border-top: 1px solid #666; border-bottom: 1px solid #666;}
+div.sites-builder-container .ui-selectmenu-menu ul li.ui-state-hover a{color: #fff;}
+
+div.sites-builder-container .ui-accordion .ui-accordion-header.ui-state-default a {color:#eee;}
+
+html.ie7 .sites-builder-container .ui-selectmenu-menu li.ui-selectmenu-hasIcon a,html.ie7 .ui-selectmenu-hasIcon .ui-selectmenu-status {
+    padding-left:70px;
+}
+div.ui-selectmenu-menu ul, div.ui-selectmenu-menu ul li { background-color:#333;}
+div.ui-selectmenu-menu li.ui-selectmenu-hasIcon a,.ui-selectmenu-hasIcon .ui-selectmenu-status {
+   /* margin-left:60px;*/
+  /* position:static;*/
+  padding:0;
+  margin:0;
+}
+a.ui-selectmenu {
+    height:60px;
+}
+div.ui-selectmenu-menu li.ui-selectmenu-hasIcon {
+    height:110px;
+}
+
+div.ui-selectmenu-menu span.ui-selectmenu-item-icon {
+    width:150px;
+    height:100px;
+    margin:5px 0;
+    position:static;
+}
+
+.sites-editor-prefs-list{list-style: none; margin: 0;}
+.sites-editor-prefs-list > li{width: 295px; padding:15px 0; border-bottom:1px solid #555;}
+ol.sites-editor-prefs-list li.sites_preference_richtext { height:420px; position:relative; }
+.ie7 ol.sites-editor-prefs-list li.sites_preference_richtext { position:static; }
+
+.sites-editor-prefs-list li.sites_preference_hidden {display:none;}
+.sites-editor-header{font-weight: bold; color:#fff; font-size: 14px; margin: 10px 0 10px 30px;}
+
+ol.sites-editor-prefs-list a.sites-preference-pagination,
+ol.sites-editor-prefs-list a.pagination { margin:10px; background-image:none; background:none; filter:none; background-color:#444; border-color:#444;
+                             color:#fff; height: 13px; padding-top:0; }
+ol.sites-editor-prefs-list a.sites-preference-pagination.prev,
+ol.sites-editor-prefs-list a.pagination.prev {float:left;}
+ol.sites-editor-prefs-list a.sites-preference-pagination.next,
+ol.sites-editor-prefs-list a.pagination.next {float:right;}
+
+/* EDITOR PREFS AREA */
+div.pill-content{
+    float:left;
+    width: 300px;
+    overflow: hidden;
+}
+div.ui-editor-label, .sites-builder-container label{
+    width: 290px;
+    display: block;
+    margin: 0 10px 0 32px;
+    padding: 5px 0;
+    clear:both;
+    text-align: left;
+    float:left;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sites_preference_richtext label {
+    margin: 0 10px 0 15px;
+}
+
+.sites-builder-container li.sites_preference_genericfilter div.results div {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.sites-builder-container li.sites_preference_genericfilter div.results div.selected {
+    border: 1px solid #ccc;
+
+}
+
+.sites-builder-container li.sites_preference_boolean input {float: left; margin-top:0; margin-bottom:0;}
+.sites-builder-container li.sites_preference_boolean label { float:left; clear:none; margin: -3px 0 0 10px; width:232px; padding:0; }
+html.ie7 .sites-builder-container li.sites_preference_boolean label { margin-top:2px; }
+
+.ui-editor-label.boxes { width:40px; }
+div.sites-builder-container div.pill-content div.tab-content-div {height:100%; overflow-y:hidden; overflow-x:hidden; width: 305px; margin:0 0 0 -5px;}
+div.sites-builder-container div.pill-content div.tab-content-div:hover{overflow-y:auto;overflow-x:hidden;}
+
+.sites-editor-prefs-list .sites_preference_site .left_column img { width:50px; height:50px; }
+.sites-editor-prefs-list input.ui-os-search-box {float:left;}
+.sites-editor-prefs-list .ui-search-icon { background-image: url(/app/public/icon/UI/icons.png);
+                 float:left; background-position: -131px -213px; height:27px; margin-left:5px; filter:none;}
+.sites-editor-prefs-list .ui-search-icon:hover {background-color:#ccc;}
+
+.sites-preferances-upload-btns{float:left; margin: 5px 0px 10px 30px; width:85%;}
+
+/* TAGS */
+.tag-container{margin:0; width:271px; margin: 10px 0 10px 30px; }
+.tag-container ol{list-style: none; margin: 0; padding: 0;}
+.tag-container .sites-new-tag-holder{width: auto; background: #ccc; border-radius: 5px; padding: 3px 5px; margin-right: 6px; margin-bottom:6px; float:left; }
+.tag-container .sites-new-tag-holder a{color:#444; text-decoration: none; }
+
+.sites-editor-site-icon{margin: 10px 0 10px 30px;}
+.sites-editor-icon-change{margin: 10px 0 0 30px;}
+
+
+
+/* NICEDIT OVERWRITES */
+.sites_editor div.nicEdit-panelContain,.sites_editor div.nicEdit-panel {
+    padding-left: 8px;
+    overflow:visible;
+}
+.sites_editor .sites_preference_richtext .nicEditorColorButton {
+    top: -230px!important;
+    left: -72px!important;
+    margin-bottom: -190px!important;
+    width: 280px!important;
+}
+.sites_editor .sites_preference_richtext > div > .nicEdit-panelContain > .nicEdit-panel > div {
+    width:25px!important;
+}
+
+.sites_editor .sites_preference_richtext > div[unselectable] > div {
+    width:160px!important;
+    margin-left:70px!important;
+}
+.sites_editor .sites_preference_richtext > div[unselectable] > div .nicEdit-selectContain {
+    margin-left:-70px!important;
+}
+.sites_editor .sites-rich-text-editor-container{border: none!important; margin: 0; padding: 0; height: 300px;}
+.sites_editor .sites-editor-rich-text-area{background: #fff; overflow: scroll;}
+.sites_editor .ui-editor-boolean{ font-size: 12px; width: 100%; text-align: left; float:left;}
+.sites_editor .ui-editor-boolean input{margin: 10px 20px 10px 0;}
+.sites_editor .range-slider{clear:both;margin: 30px;}
+.sites_editor .nicEdit-panelContain{background-color: #333!important;border: none!important; position: absolute; top: 268px; }
+html.ie7 .sites_editor .nicEdit-panelContain {position:static; margin-bottom:10px; top:auto; }
+
+.sites_editor .nicEdit-panel div.nicEdit-button-undefined{ border-radius: 5px 5px 5px 5px; height:19px; padding: 0;}
+.sites_editor .nicEdit-panel div.nicEdit-buttonContain { margin:3px; }
+.sites_editor .nicEdit-main { background: #fff; border-radius: 5px; margin: 0; padding: 5px; width: 250px; height: 100px; overflow: auto;}
+.sites_editor .nicEdit-main:hover{background: #c00;}
+
+/* Don't blame me, blame magic! */
+.sites_editor .nicEdit-button-hover div[unselectable] { display: inline-block; white-space: nowrap; }
+
+/* Blocking div when building site */
+.sites-blocking-div { width:100%;height:100%;color:#ccc;background-color:black;z-index:1000000;position:absolute;
+                     top:0;left:0;padding:100px; font-size:24px; }
+.widget_store {
+    margin-top: 0 !important;
+    padding-top: 8px !important;
+    margin-left: 12px !important;
+    width: 92%;
+}
+
+.widget_store .loading {
+    background-color: transparent;
+    padding: 4px;
+    position: relative;
+    left: 40%;
+    margin-top: 10px;
+}
+
+.widget_store .store-item {
+    position: relative;
+    top: auto;
+    margin: 5px 0;
+    border-bottom: 1px solid #CCC;
+}
+
+.widget_store .image {
+    height: 83px;
+    position: static;
+    float: left;
+    margin: 8px 0 0 0;
+    border-bottom: 0;
+    border-radius: 4px;
+}
+
+.widget_store .image:hover {
+    background-color: #0071b9;
+}
+
+.widget_store .image img {
+    margin: 4px;
+}
+
+.widget_store .video {
+    min-height: 100px;
+    border-radius: 4px;
+}
+
+.widget_store .video img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.widget_store .video div {
+    margin-left: 130px;
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.widget_store .video div h4 {
+    font-size: 1.25em;
+    line-height: 1em;
+    color: #aaa;
+    margin-bottom: 0.375em;
+}
+
+.widget_store .video:hover div h4 {
+    color: #eee;
+}
+
+.widget_store .video div p {
+    font-size: inherit;
+    line-height: 1.125em;
+    margin-bottom: 5px;
+}
+
+.widget_store .youtube {
+    border-color: red;
+}
+
+.widget_store .youtube:hover {
+    background: red;
+}
+
+.widget_store .vimeo {
+    border-color: #0071b9;
+}
+
+.widget_store .vimeo:hover {
+    background: #0071b9;
+}
+
+.widget_store .site {
+    float: none !important;
+    width: 95% !important;
+    height: auto !important;
+    border: 0;
+    padding: 4px;
+    margin-bottom: 8px;
+    font-size: 11px;
+    position: static !important;
+}
+
+.widget_store .site h5, .widget_store .site p {
+    font-size: inherit;
+    padding: 4px 8px;
+}
+
+.widget_store .site p {
+    color: black;
+    margin-bottom: 0;
+}
+
+.widget_store .site.selected {
+    border: 1px solid #ccc;
+}
+.ui-search-frogstore-icon{
+    margin-left: 5px;
+    padding: 5px;
+}
+
+/* Share */
+
+.ie8 .share-to input, .ie9 .share-to input {height: 20px!important;}

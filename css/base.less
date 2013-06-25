@@ -1,0 +1,114 @@
+/* *** THEMEBUILDER FILES; DO NOT EDIT *** */
+
+body{
+    padding-top: 40px;
+}
+.themebuilder{
+    position: relative;
+    width: 100%;
+    min-width: 1024px;
+
+    .topbar{
+        height: 40px;
+        left: 0;
+        overflow: visible;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 10000;
+
+        .topbar-inner, .fill {
+            background-color: #222222;
+            background-image: -moz-linear-gradient(center top , #333333, #222222);
+            background-repeat: repeat-x;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+
+            .container-fluid{
+                .brand{
+                    margin: 12px 0 0 20px;
+                    float: right;
+                    font-weight: bold;
+                    font-size: 20px;
+                    color: #000;
+                    text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+                .nav{
+
+                    li {
+                        float:left;
+
+                        a {
+                            padding: 4px 12px;
+
+                            &:hover, &:focus {
+                                background-color: #555555;
+                                color: #ffffff;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    .dropdown-menu {
+                        min-width: 120px;
+
+                        li > {
+                            a {
+                                width: 120px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        button{
+            margin: 7px 0 5px 0;
+
+            &:hover, &:focus{
+                background-position: 0 -35px;
+            }
+
+        }
+        div > ul > li {
+            display: block;
+            float: left;
+            height: 100%;
+            line-height: 40px;
+            min-width: 79px;
+            text-align: center;
+        }
+    }
+    .themebuilder-checker{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border-radius: 10px;
+        background: #000;
+        background: rgba(0,0,0,.85);
+        padding: 10px;
+        color: #FAFAFA;
+
+        h4{
+            text-align:center;
+            color:#f0f0f0;
+        }
+        .themebuilder-checker-close{
+            position: absolute;
+            top: 5px; right: 10px;
+            color:#fff;
+
+            &:hover{
+                color:#fff;
+                cursor: pointer;
+            }
+        }
+    }
+    li.sites-add-page a:hover,
+    li.dropdown a.dropdown-toggle:hover,
+    li.theme-check a:hover{
+        cursor:pointer;
+    }
+}

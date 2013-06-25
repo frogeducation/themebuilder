@@ -1,0 +1,17 @@
+<!-- *** THEMEBUILDER FILES; DO NOT EDIT *** -->
+
+<div class="themebuilder-checker">
+	<a class="themebuilder-checker-close">×</a>
+	<h4>Theme Checker</h4>
+	<p><%= message %></p>
+
+	<% if( errors.length ) { %>
+		<ul>
+			<% for(var i=0, errLen = errors.length; i < errLen; i++ ) {%>
+				<%== can.view.render( './views/error.ejs', { error : errors[i] } ) %>
+			<% } %>
+		</ul>
+
+		<button class="btn small">More Info</button>
+	<% } %>
+</div>
