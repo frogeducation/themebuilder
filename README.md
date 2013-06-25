@@ -1,15 +1,15 @@
 FrogOS ThemeBuilder
 ===================
 
-####Combined the offline theme builder and theme boilerplate files
+####Combines the offline theme builder and theme boilerplate files
 ------------------------
 
 Whats in it?
 ------------------------
-* offline theme builder
-* example FrogOS widgets
-* new HTML boilerplate files
-* extended CSS markup
+* Offline theme builder
+* Example FrogOS widgets
+* New HTML boilerplate files
+* Extended LESS/CSS markup
 
 How to use it
 ------------------------
@@ -18,7 +18,7 @@ How to use it
 
 As the ThemeBuilder has been based on the FrogOS platform, you will need to host this tool on a web server to view your theme. If you don't have access to a web server you can use a localhost server - like <a href="http://www.apachefriends.org/en/xampp.html">xampp</a> - which will return the same results.
 
-Once you have your server/localhost setup, move the ThemeBuilder files into this folder and open the index.html file. You should be able to see the updated boilerplate files with widget content. You can alter the amount of text
+Once you have your server/localhost setup, move the ThemeBuilder files into this folder and open index.html. You should be able to see the updated boilerplate files with widget content. You can alter the amount of text
 
 **How do I edit a theme?**
 
