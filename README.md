@@ -3,8 +3,11 @@ FrogOS ThemeBuilder
 
 ###Frog 13
 Presentations from Frog 13 are available online, also on Github
+
 [Adam's](http://proxymoron.org/pres/a) | [Source on Github](http://github.com/adamhepton/frog13)
-[V's](http://proxymoron.org/pres/v) | [Source on Github[(http://github.com/FirsRdJnr/reveal.js)
+
+[V's](http://proxymoron.org/pres/v) | [Source on Github](http://github.com/FirsRdJnr/reveal.js)
+
 
 ####Combines the offline theme builder and theme boilerplate files
 ------------------------
