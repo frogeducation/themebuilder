@@ -19,6 +19,8 @@ Whats in it?
 * New HTML boilerplate files
 * Extended LESS/CSS markup
 
+<a href="http://designguide.frogtrade.com/themes.html">View more details about designing a theme</a>
+
 How to use it
 ------------------------
 
@@ -54,6 +56,6 @@ Things to remember
 * Embed all your fonts
 * Check font colours
 * Don’t use JavaScript
-* Will work in anything above IE7, so test accordingly
+* Will work in IE8 and above, so test accordingly
 
 If you need anymore information, email <a href="mailto:victoria.baron@frogtrade.com">Victoria Baron</a>.
