@@ -30,6 +30,14 @@ As the ThemeBuilder has been based on the FrogOS platform, you will need to host
 
 Once you have your server/localhost setup, move the ThemeBuilder files into this folder and open index.html. You should be able to see the updated boilerplate files with widget content. You can alter the amount of text
 
+**IIS issues**
+
+There are known issues if you’re using IIS as a host. IIS doesn’t know how to serve up an .ejs file, so a 404 response is returned when you open index.html.
+
+This problem can be solved by adding an .ejs mime type of ‘application/x-javascript’ in the IIS Administrative Tools.
+
+Find out more about <a herf="http://www.iis.net/configreference/system.webserver/staticcontent/mimemap">adding mime file type</a> from the IIS website.
+
 **How do I edit a theme?**
 
 If you open the /themebuilder/theme/ folder you will see a collection of files that make up the boilerplate;
