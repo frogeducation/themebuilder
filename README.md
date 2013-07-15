@@ -66,4 +66,4 @@ Things to remember
 * Don’t use JavaScript
 * Will work in IE8 and above, so test accordingly
 
-If you need anymore information, email <a href="mailto:victoria.baron@frogtrade.com">Victoria Baron</a>.
+If you need anymore information, email <a href="servicedesk@frogtrade.com">Frog support</a>.
